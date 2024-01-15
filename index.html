@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kusatu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="slider">
+        <div class="my-create">
+            <div class="img_box">
+                <img id="slide_img" src="img/01.PNG" alt="01" width="393px" height="524px">
+            </div>
+
+            <div class="btn">
+                <div id="prev">&lt;</div> <!-- &lt; 小なり less than-->
+                <div id="page"></div>
+                <div id="next">&gt;</div> <!-- &gt; 大なり greater than-->
+            </div>
+
+            <button class="audioBtn" onclick="audio_start.play();">
+                <img src="./img/play.img.png" alt="再生マーク" width="50px" height="50px">
+                <audio id="audio_start" src="/audio/01.wav" type="audio/wav"></audio>
+            </button>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904.0422018549293!2d138.59584305653732!3d36.621463295409995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601de655193753b5%3A0xe9421fc4cee55f20!2z6I2J5rSl5rip5rOJ5rmv55WR!5e0!3m2!1sja!2sjp!4v1705288341098!5m2!1sja!2sjp"
+                height="530px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
