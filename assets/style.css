@@ -3,13 +3,21 @@ body {
     background-size: 100%;
 }
 
-.slider {
-    display: flex;
-    width: 540px;
-    margin: 20px auto 0;
-    padding: 0;
-    transform-origin: top center;
-    transform: scale(1.4);
+@media screen and (max-width: 1024px) {
+    .slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        width: 540px;
+        margin: 20px auto 0;
+        padding: 0;
+        transform-origin: top center;
+        transform: scale(1.4);
+    }
 }
 
 .img_box {
