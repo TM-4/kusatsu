@@ -12,14 +12,14 @@ body {
     transform: scale(1.4);
 }
 
-.img_box {
+/* .img_box {
     border: 40px solid #333;
     width: 393px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .img_box>img {
     cursor: pointer;
