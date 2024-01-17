@@ -4,7 +4,7 @@ body {
 }
 
 .slider {
-    display: flex;
+/*     display: flex; */
     width: 540px;
     margin: 20px auto 0;
     padding: 0;
